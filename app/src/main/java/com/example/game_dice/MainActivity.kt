@@ -1,6 +1,5 @@
 package com.example.game_dice
 
-import android.health.connect.datatypes.units.Length
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -9,6 +8,9 @@ import android.widget.TextView
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
+
+    private var ultimoValor = -1
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -28,7 +30,10 @@ class MainActivity : AppCompatActivity() {
                 5 -> imagem.setImageResource(R.drawable.dice5)
                 6 -> imagem.setImageResource(R.drawable.dice6)
             }
-            Toast.makeText(this, "imagem renovada",Toast.LENGTH_SHORT).show()
+            if (valor == ultimoValor) {
+                Toast.makeText(this, "Valor repetido", Toast.LENGTH_SHORT).show()
+            }
+            ultimoValor = valor
         }
     }
 }
