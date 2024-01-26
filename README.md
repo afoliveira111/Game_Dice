@@ -1,4 +1,4 @@
-# Game_Dice (Jogo de Dado)
+# Game Dice (Jogo de Dado)
 
 
 Desenvolvimento Android utilizando Kotlin e Room.
