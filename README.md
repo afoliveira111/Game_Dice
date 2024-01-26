@@ -7,7 +7,7 @@ Desenvolvimento Android utilizando Kotlin e Room.
 <!-- You can add more screenshots here if you like -->
 <table>
   <tr>
-    </td><td><img src="/Result/Screenshot_1.png" width="260"></td><td><img src="/Result/Screenshot_2.png" width="260"></td><td><img 
+    </td><td><img src="/result/Screenshot_1.png" width="260"></td><td><img src="/result/Screenshot_2.png" width="260"></td><td><img 
   /tr>
 </table>
 
