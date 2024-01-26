@@ -15,11 +15,17 @@ class MainActivity : AppCompatActivity() {
         val textview = findViewById<TextView>(R.id.textview)
         val imagem = findViewById<ImageView>(R.id.imagem)
 
-            botao.setOnClickListener {
-                val valor = (1..6).random()
-                textview.text = "Valor do dado = $valor"
+        botao.setOnClickListener {
+            val valor = (1..6).random()
+            textview.text = "Valor do dado = $valor"
+            when (valor) {
+                1 -> imagem.setImageResource(R.drawable.dice1)
+                2 -> imagem.setImageResource(R.drawable.dice2)
+                3 -> imagem.setImageResource(R.drawable.dice3)
+                4 -> imagem.setImageResource(R.drawable.dice4)
+                5 -> imagem.setImageResource(R.drawable.dice5)
+                6 -> imagem.setImageResource(R.drawable.dice6)
             }
-
+        }
     }
-
 }
