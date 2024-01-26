@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         botao.setOnClickListener {
             val valor = (1..6).random()
-            textview.text = "Valor do dado = $valor"
+            textview.text = getString(R.string.valor_do_dado, valor)
             when (valor) {
                 1 -> imagem.setImageResource(R.drawable.dice1)
                 2 -> imagem.setImageResource(R.drawable.dice2)
@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
                 6 -> imagem.setImageResource(R.drawable.dice6)
             }
             if (valor == ultimoValor) {
-                Toast.makeText(this, "Valor repetido", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.valor_repetido), Toast.LENGTH_SHORT).show()
             }
             ultimoValor = valor
         }

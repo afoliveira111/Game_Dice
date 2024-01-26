@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text=" "
+        android:text="@string/titulo_principal"
         android:textColor="@color/black"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -24,11 +24,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="18dp"
-        android:text=""
+        android:text="@string/rodar_dado"
         android:textColor="@color/black"
         android:textSize="20sp"
-        app:layout_constraintTop_toBottomOf="@id/titulo"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titulo" />
 
     <ImageView
         android:id="@+id/imagem"
@@ -41,13 +41,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:layout_width="match_parent"
         android:id="@+id/botao"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:textSize="18sp"
-        android:text="Jogar dado"
         android:backgroundTint="@color/black"
+        android:text="@string/jogar"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imagem" />
