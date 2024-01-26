@@ -1,10 +1,12 @@
 package com.example.game_dice
 
+import android.health.connect.datatypes.units.Length
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,6 +28,7 @@ class MainActivity : AppCompatActivity() {
                 5 -> imagem.setImageResource(R.drawable.dice5)
                 6 -> imagem.setImageResource(R.drawable.dice6)
             }
+            Toast.makeText(this, "imagem renovada",Toast.LENGTH_SHORT).show()
         }
     }
 }
