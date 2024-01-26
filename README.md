@@ -1,7 +1,7 @@
 # Game Dice (Jogo de Dado)
 
 
-Desenvolvimento Android utilizando Kotlin e Room.
+
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
@@ -18,12 +18,8 @@ Desenvolvimento Android utilizando Kotlin e Room.
 - **When: Ele simplifica a lógica de seleção de imagens com base no valor do dado**
 - **Toast: Mostra uma mensagem quando um valor repetido é gerado**
 
-- ## 💻 Experiência:
-
-Durante esse processo, explorei e implementei operações CRUD (Create, Read, Update, Delete) em uma aplicação Android. 
-Utilizei o Room Database para gerenciar a persistência de dados, adotando boas práticas como injeção de dependência, arquitetura MVVM e a utilização de coroutines para operações assíncronas.
-
-www.linkedin.com/in/id-antonio-felipe
+##
+- ### 💻 LinkedIn: www.linkedin.com/in/id-antonio-felipe
 
 ## License
 ```
