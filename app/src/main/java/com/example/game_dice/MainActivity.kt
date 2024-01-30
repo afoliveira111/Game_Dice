@@ -32,9 +32,9 @@ class MainActivity : AppCompatActivity() {
                 6 -> imagem.setImageResource(R.drawable.dice6)
             }
             if (valor == ultimoValor) {
-                Toast.makeText(this, getString(R.string.valor_repetido), Toast.LENGTH_SHORT).show()
                 val intent = Intent(this, RepeatedNumberActivity::class.java)
                 intent.putExtra("number", valor)
+                startActivity(intent)
             }
 
             ultimoValor = valor

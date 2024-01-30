@@ -21,6 +21,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_height="wrap_content"
+        app:lottie_url="https://app.lottiefiles.com/animation/0ff0b76e-de76-4dfe-b603-7ca6c9a7a102"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="false"/>
+
     <ImageView
         android:id="@+id/imagem"
         android:layout_width="wrap_content"
