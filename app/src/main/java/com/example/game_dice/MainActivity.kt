@@ -1,5 +1,6 @@
 package com.example.game_dice
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -32,7 +33,10 @@ class MainActivity : AppCompatActivity() {
             }
             if (valor == ultimoValor) {
                 Toast.makeText(this, getString(R.string.valor_repetido), Toast.LENGTH_SHORT).show()
+                val intent = Intent(this, RepeatedNumberActivity::class.java)
+                intent.putExtra("number", valor)
             }
+
             ultimoValor = valor
         }
     }

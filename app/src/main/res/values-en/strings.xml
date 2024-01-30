@@ -5,6 +5,7 @@
     <string name="valor_do_dado">Dice value = %d</string>
     <string name="jogar">Play</string>
     <string name="valor_repetido">Repeated value</string>
+    <string name="o_valor_repetido_foi_d">O valor repetido foi: %d</string>
 
 </resources>
 

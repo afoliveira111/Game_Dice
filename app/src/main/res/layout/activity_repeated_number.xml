@@ -8,12 +8,12 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/titulo"
+        android:id="@+id/repeated_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/margin_4"
         android:layout_marginTop="16dp"
-        android:text="@string/titulo_principal"
+        android:text="@string/o_valor_repetido_foi_d"
         android:textColor="@color/black"
         android:textSize="@dimen/title_text_size"
         android:textStyle="bold"
