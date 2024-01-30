@@ -12,11 +12,11 @@
 </table>
 
 ## 🛠 Tecnologias Utilizadas:
-- **A interface do usuário é projetada usando XML**
-- **Manipulação de Elementos de UI: (botão, texto e imagem)**
-- **Geração de Números Aleatórios: Com a função random()**
-- **When: Ele simplifica a lógica de seleção de imagens com base no valor do dado**
-- **Toast: Mostra uma mensagem quando um valor repetido é gerado**
+- A interface do usuário é projetada usando **XML**
+- Manipulação de Elementos de ***UI: (botão, texto e imagem)***
+- Geração de Números Aleatórios: Com a função ***random()***
+- ***When:*** Ele simplifica a lógica de seleção de imagens com base no valor do dado
+- ***Toast:*** Mostra uma mensagem quando um valor repetido é gerado
 
 ##
 - ### 💻 LinkedIn: www.linkedin.com/in/id-antonio-felipe
